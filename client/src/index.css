@@ -11,3 +11,15 @@ body {
     width: 20%;
     border-radius: 10px;
 }
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-control.right {
+    opacity: 0;
+}
+
+.centerCarousel {
+    margin: 0 50px;
+}

@@ -1,7 +1,9 @@
+
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router';
-import SearchBar from './SearchBar'
+import SearchBar from './SearchBar';
+
 
 class IndexNav extends Component {
     render () {
@@ -22,8 +24,7 @@ class IndexNav extends Component {
         var FontStyle = {
             fontSize: '20px'
         }
-        
-        
+    
         return (
             <Navbar className="col-md-12" style={NavBarStyle}>
                 <Navbar.Header>
@@ -31,11 +32,12 @@ class IndexNav extends Component {
                 </Navbar.Header>
 
                 <Nav pullLeft>
+                    <NavItem style={NavItemStyle}><Link to="/auctions">Auctions</Link></NavItem>
                     <NavItem style={NavItemStyle}><Link to="/airjordan">Air Jordans</Link></NavItem>
                     <NavItem style={NavItemStyle}><Link to="/nike">Nike</Link></NavItem>
                     <NavItem style={NavItemStyle}><Link to="/adidas">Adidas</Link></NavItem>
-                    <NavItem style={NavItemStyle}><Link to="/reebok">Reebok</Link></NavItem>
                     <NavDropdown style={NavItemStyle} title="Other Brands" id="dropdown-size-medium">
+                        <NavItem style={FontStyle}><Link to="/reebok">Reebok</Link></NavItem>
                         <NavItem style={FontStyle}><Link to="/newbalance">New Balance</Link></NavItem>
                         <NavItem style={FontStyle}><Link to="/converse">Converse</Link></NavItem>
                         <NavItem style={FontStyle}><Link to="/vans">Vans</Link></NavItem>
@@ -44,6 +46,7 @@ class IndexNav extends Component {
                     </NavDropdown>  
                 </Nav>
                 <SearchBar />
+             
             </Navbar>
         )
     }
