@@ -1,5 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Oswald', sans-serif;
+}
+
+.search-bar input {
+    position: sticky;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 20%;
+    border-radius: 10px;
 }
