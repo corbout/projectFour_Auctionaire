@@ -1,31 +1,22 @@
-import React, { Component } from 'react';
+import React from 'react';
+import IndexNav from './IndexNav'
+import IndexNavTwo from './IndexNavTwo'
 
-class Login extends Component {
-    constructor (props, context) {
-        super (props, context) 
+let About = () => {
+    const contentStyle = {
+        padding: 15
+    }
+    return (
+        <div className="About">
+            <SiteNav />
+            <main style={contentStyle}>
+                <p>I made this About page to test out React Router</p>
+                <p>This is a React chat application built for WDI DTLA 11</p>
         
-        this.state = { 
-            login: '',
-            password: ''
-        };
-    }
-    
-    render () {
-        return (
-            <div className="login-bar">
-                <input placeholder={'Sign In'} value={ this.state.login }
-                onChange={event => this.onInputChange(event.target.value)} />
-                <input placeholder={'Password'} value={ this.state.password }
-                onChange={event => this.onInputChange(event.target.value)}
-                type={'password'} />
-            </div>
-            
-        ); 
-    };
-
-    onInputChange(term) {
-        this.setState({ login, password });
-    }
+            </main>
+        </div>
+    )
 }
 
-export default Login;
+
+export default About

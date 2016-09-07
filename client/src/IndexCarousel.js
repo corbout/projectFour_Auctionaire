@@ -19,7 +19,7 @@ class IndexCarousel extends Component {
                       </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={CarouselStyle}>
-                      <img width={'auto'} height={300} alt="autox300" src="https://c4.staticflickr.com/9/8106/28882680083_5eed607f96_o.jpg"/>
+                      <img width={'auto'} height={300} alt="autox300" src="https://c6.staticflickr.com/9/8476/28886809413_c4171ecb26_o.jpg"/>
                       <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <h4>Timer Here</h4>
@@ -27,7 +27,7 @@ class IndexCarousel extends Component {
                       </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={CarouselStyle}>
-                      <img width={'auto'} height={300} alt="autox300" src="https://c4.staticflickr.com/9/8106/28882680083_5eed607f96_o.jpg"/>
+                      <img width={'auto'} height={300} alt="autox300" src="https://c8.staticflickr.com/9/8505/28886811903_8bdce7b301_o.jpg"/>
                       <Carousel.Caption>
                         <h3>Third slide label</h3>
                         <h4>Timer Here</h4> 
@@ -35,7 +35,7 @@ class IndexCarousel extends Component {
                       </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-                <Carousel className="col-md-4">
+               <Carousel className="col-md-4">
                     <Carousel.Item style={CarouselStyle}>
                       <img width={'auto'} height={300} alt="autox300" src="https://c4.staticflickr.com/9/8106/28882680083_5eed607f96_o.jpg"/>
                       <Carousel.Caption>
@@ -45,7 +45,7 @@ class IndexCarousel extends Component {
                       </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={CarouselStyle}>
-                      <img width={'auto'} height={300} alt="autox300" src="https://c4.staticflickr.com/9/8106/28882680083_5eed607f96_o.jpg"/>
+                      <img width={'auto'} height={300} alt="autox300" src="https://c6.staticflickr.com/9/8476/28886809413_c4171ecb26_o.jpg"/>
                       <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <h4>Timer Here</h4>
@@ -53,7 +53,7 @@ class IndexCarousel extends Component {
                       </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={CarouselStyle}>
-                      <img width={'auto'} height={300} alt="autox300" src="https://c4.staticflickr.com/9/8106/28882680083_5eed607f96_o.jpg"/>
+                      <img width={'auto'} height={300} alt="autox300" src="https://c8.staticflickr.com/9/8505/28886811903_8bdce7b301_o.jpg"/>
                       <Carousel.Caption>
                         <h3>Third slide label</h3>
                         <h4>Timer Here</h4> 
@@ -61,7 +61,7 @@ class IndexCarousel extends Component {
                       </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-                <Carousel className="col-md-4">
+               <Carousel className="col-md-4">
                     <Carousel.Item style={CarouselStyle}>
                       <img width={'auto'} height={300} alt="autox300" src="https://c4.staticflickr.com/9/8106/28882680083_5eed607f96_o.jpg"/>
                       <Carousel.Caption>
@@ -71,7 +71,7 @@ class IndexCarousel extends Component {
                       </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={CarouselStyle}>
-                      <img width={'auto'} height={300} alt="autox300" src="https://c4.staticflickr.com/9/8106/28882680083_5eed607f96_o.jpg"/>
+                      <img width={'auto'} height={300} alt="autox300" src="https://c6.staticflickr.com/9/8476/28886809413_c4171ecb26_o.jpg"/>
                       <Carousel.Caption>
                         <h3>Second slide label</h3>
                         <h4>Timer Here</h4>
@@ -79,7 +79,7 @@ class IndexCarousel extends Component {
                       </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item style={CarouselStyle}>
-                      <img width={'auto'} height={300} alt="autox300" src="https://c4.staticflickr.com/9/8106/28882680083_5eed607f96_o.jpg"/>
+                      <img width={'auto'} height={300} alt="autox300" src="https://c8.staticflickr.com/9/8505/28886811903_8bdce7b301_o.jpg"/>
                       <Carousel.Caption>
                         <h3>Third slide label</h3>
                         <h4>Timer Here</h4> 

@@ -4,12 +4,16 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+div.loginPassword {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    display: inline;
+}
+
 .search-bar input {
-    position: sticky;
-    margin-top: 40px;
-    margin-left: 10px;
-    width: 20%;
-    border-radius: 10px;
+    position: left;
+    width: 100%;
+    margin-top: 15px;
 }
 
 .carousel-inner > .item > img {
@@ -20,6 +24,30 @@ body {
     opacity: 0;
 }
 
+.carousel-control.left {
+    opacity: 0;
+}
+
 .centerCarousel {
     margin: 0 50px;
+}
+
+.login-bar {
+    text-align: left;
+    width: 50%;
+}
+
+.input-bar {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 20%;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    position: static;
+}
+
+a:link {
+    color: #ffffff;
 }
