@@ -1,12 +1,12 @@
-
 import React, { Component } from 'react';
-import { Navbar, Nav, NavItem, NavDropdown } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 import { Link } from 'react-router';
 import SearchBar from './SearchBar';
 
 class IndexNavTwo extends Component {
     render () {
         var NavBarStyle2 = {
+            position: 'static',
             boxShadow: 'none',
             borderBottom: 'none',
             borderTop: 'none',

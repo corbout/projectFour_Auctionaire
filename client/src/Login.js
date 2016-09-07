@@ -1,22 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
+import './App.css';
 import IndexNav from './IndexNav'
 import IndexNavTwo from './IndexNavTwo'
+import CreateAccount from './CreateAccount'
 
-let About = () => {
-    const contentStyle = {
-        padding: 15
+
+class Login extends Component {
+    render() {
+        return (
+          <div className="App">   
+                <IndexNavTwo />
+                <IndexNav />   
+                <CreateAccount />
+          </div>
+        );
     }
-    return (
-        <div className="About">
-            <SiteNav />
-            <main style={contentStyle}>
-                <p>I made this About page to test out React Router</p>
-                <p>This is a React chat application built for WDI DTLA 11</p>
-        
-            </main>
-        </div>
-    )
 }
 
-
-export default About
+export default Login;
