@@ -4,7 +4,6 @@ import IndexNav from './IndexNav'
 import IndexNavTwo from './IndexNavTwo'
 import IndexCarousel from './IndexCarousel'
 
-
 class App extends Component {
     
     render() {
@@ -13,6 +12,7 @@ class App extends Component {
                 <IndexNavTwo />
                 <IndexNav />   
                 <IndexCarousel />
+             
           </div>
         );
     }

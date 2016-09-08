@@ -5,7 +5,7 @@ function reducer(state = [], action) {
     case 'TOGGLE_USER_SIDEBAR':
         return { ...state, showUsers: !state.showUsers }
     case 'ADD_CHAT':
-        var newState = { ...state,
+        var newState = { ...state, 
             chats: [...state.chats, action.chat ]
         }
         newState.users.add(action.chat.user)
@@ -20,7 +20,7 @@ let store = createStore(reducer, {
     chats: [],
     users: new Set(),
     colors: {},
-	  user: 'user' + Math.floor(Math.random()*10000),
+	user: 'user' + Math.floor(Math.random()*10000),
     showUsers: true
 })
 

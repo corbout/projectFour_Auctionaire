@@ -4,6 +4,10 @@ body {
   font-family: 'Oswald', sans-serif;
 }
 
+.inputShadow {
+    box-shadow: inset 4px 6px 5px 0px rgba(158,158,158,1);
+}
+
 div.loginPassword {
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
@@ -49,5 +53,73 @@ div.loginPassword {
 }
 
 .createAccount {
-    border: solid black 1px;
+/*    border: solid black 1px;*/
+    margin-left: 20px;
+    display: inline;
 }
+
+.account {
+    margin: 10px 10px;
+    padding: 20px 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+    background-color: #F0F0F0;
+}
+
+.accountBox {
+/*    border: solid black 1px;*/
+}
+
+.accountHeader {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+
+.accountText {
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;
+    width: 1000px;
+    font-size: 20px;
+    color: #990000;
+    
+}
+
+.login {
+    margin: 10px 10px;
+    padding: 20px 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.35);
+    background-color: #F0F0F0;
+}
+
+
+.loginBox {
+/*    border: solid black 1px;*/
+}
+
+.loginHeader {
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+
+.loginText {
+    text-align: left;
+    margin-left: 20px;
+    font-family: 'Oswald', sans-serif;
+    width: 1000px;
+    font-size: 20px;
+    color: #990000;
+    
+}
+
+.buttonStyle {
+    color: black;
+}
+
