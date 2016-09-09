@@ -105,7 +105,7 @@ function verifyToken (req, res, next) {
 
 module.exports = {
 	register: register,
-	createToken, createToken,
+	createToken: createToken,
 	verifyToken: verifyToken,
 	login: login
 }
