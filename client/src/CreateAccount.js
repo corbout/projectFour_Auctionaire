@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'react-bootstrap';
 
 class CreateAccount extends Component {
     constructor (props, context) {
@@ -11,8 +12,7 @@ class CreateAccount extends Component {
             password: '',
             confirmPassword: ''
         };
-        
-        
+          
     }
     
     render () {
@@ -70,6 +70,9 @@ class CreateAccount extends Component {
                                 onChange={event => this.onInputChange(event.target.value)} />
                             </div>
                         </div>
+                        <div className="accountButton">
+                            <Button>Create Account</Button>
+                        </div>
                     </div>            
                 </div>
                     
@@ -90,6 +93,9 @@ class CreateAccount extends Component {
                                 onChange={event => this.onInputChange(event.target.value)} />
                             </div>
                         </div> 
+                        <div className="loginButton">
+                            <Button>Create Account</Button>
+                        </div>
                     </div>            
                 </div>            
             </div>         

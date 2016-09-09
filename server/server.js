@@ -1,33 +1,41 @@
 var express = require('express');
 var path = require('path');
+var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var routes = require('./routes/index');
-var app = express()
+var sequelize = require('sequelize');
+var http = require('http');
+const cors = require('cors');
 
-var server = require('http').Server(app);
-var io = require('socket.io')(server)
+require('dotenv').load();
 
+var routes = require('./routes/index.js');
+
+// Load environment variables
+var app = express();
+// App Setup
+app.use(cors());
 app.use(logger('dev'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'server')));
+app.use(express.static(path.join(__dirname, 'public')));
+
 
 app.use('/', routes);
 
-server.listen(3000);
 
-var id = 2
-io.on('connection', function (socket) {
-    socket.emit('chat', { id: 1, user:"admin", msg: "Welcome to the React chat room" })
 
-    socket.on('chat', function (chat) {
-        chat.id = id
-        id++
-        io.emit('chat', chat)
-    })
-})
+
+
+// Server Setup
+var port = process.env.PORT || 3000;
+var server = http.createServer(app);
+server.listen(port);
+console.log('Server listening on:', port);
+
+
+
 
 module.exports = app;
